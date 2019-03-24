@@ -1,0 +1,110 @@
+body,p,dl,dd,ul,ol,li,div,h1,h2,h3,h4,h5,h6,form,input,table,tr,td,input,a{
+    margin:0;
+    padding:0;
+}
+html,body{
+    font: 12px "微软雅黑",Arial;
+}
+ul,ol{
+    list-style:none;
+}
+img{
+    border: 0;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.clearfix{
+    zoom : 1;
+}
+header{
+	padding: 18px 0 22px;
+	background: #313131;
+}
+.head{
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+	color: #ded8e4;
+}
+.inputBox{
+	float: right;
+	margin-right: 20px;
+}
+.inputBox input{
+	outline: none;
+	width: 724px;
+	height: 40px;
+	text-indent: 22px;
+	font-size: 22px;
+	color: #7a7981;
+	border: 2px solid #b7b7b7;
+	border-radius: 10px;
+}
+.cnt{
+	padding: 0 22px 20px;
+	background: #cdcdcd;
+}
+.h{
+	float: left;
+	height: 146px;
+	font-size: 46px;
+	line-height: 146px;
+	font-weight: bolder;
+	background: #cdcdcd;
+}
+.c{
+	float: right;
+	width: 40px;
+	height: 40px;
+	margin-top: 48px;
+	text-align: center;
+	line-height: 40px;
+	font-size: 16px;
+	border-radius: 50%;
+	background: #e7e7ff;
+}
+.lis{
+	height: 64px;
+	line-height: 64px;
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.checkBox{
+	float:left;
+	width: 28px;
+	height: 64px;
+	background: white;
+	text-align: center;
+	border-radius: 2px;
+}
+.lis span{
+	width: 1118px;
+	background: white;
+	float: left;
+}
+.lis i{
+	float: left;
+	width: 6px;
+	height: 64px;
+	background: #62999e;
+	border-left: 4px;
+	border-top-left-radius: 4px;
+	border-bottom-left-radius: 4px;
+}
+.lis a{
+	float: left;
+	width: 58px;
+	height: 64px;
+	background: url(../img/aBg.png) no-repeat left center white;
+}
+.finished .lis{
+	width: 1210px;
+	margin-bottom: 20px;
+}
